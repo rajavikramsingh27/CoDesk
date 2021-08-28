@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.9.1)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - GooglePlacesAPI (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - IQKeyboardManager (6.5.5)
+  - MBProgressHUD (1.2.0)
+  - MLTontiatorView (1.1.2):
+    - MLTontiatorView/Core (= 1.1.2)
+  - MLTontiatorView/Core (1.1.2)
+  - ObjectMapper (3.5.2)
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
+  - SwiftMessageBar (5.6.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - GooglePlaces
+  - GooglePlacesAPI
+  - IQKeyboardManager
+  - MBProgressHUD (~> 1.2.0)
+  - MLTontiatorView (~> 1.1.0)
+  - SDWebImage (~> 5.0)
+  - SwiftMessageBar
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - GooglePlacesAPI
+    - IQKeyboardManager
+    - MBProgressHUD
+    - MLTontiatorView
+    - ObjectMapper
+    - SDWebImage
+    - SwiftMessageBar
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  GooglePlacesAPI: 6184a463b58443f1bde3fab6ce725c1c8e540419
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MLTontiatorView: 639d587327556bfa7abe6a60eb18306a7540add3
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  SwiftMessageBar: eac955a042445fcafde9adcd53b66a7786b83e16
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 2c7fd0178e334d2ae8862cf5a66683156889fd75
+
+COCOAPODS: 1.7.2

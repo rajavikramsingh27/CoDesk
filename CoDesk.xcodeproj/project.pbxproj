@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE189B1E2478F16A00B55CE5 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE189B1D2478F16A00B55CE5 /* FavoriteViewController.swift */; };
+		AE224BC5246DA0EB0074CDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE224BC4246DA0EB0074CDB6 /* AppDelegate.swift */; };
+		AE224BC9246DA0EB0074CDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE224BC8246DA0EB0074CDB6 /* ViewController.swift */; };
+		AE224BCC246DA0EB0074CDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE224BCA246DA0EB0074CDB6 /* Main.storyboard */; };
+		AE224BCE246DA0ED0074CDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE224BCD246DA0ED0074CDB6 /* Assets.xcassets */; };
+		AE224BD1246DA0ED0074CDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE224BCF246DA0ED0074CDB6 /* LaunchScreen.storyboard */; };
+		AE224BE2246DB1D70074CDB6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE224BE1246DB1D70074CDB6 /* SplashViewController.swift */; };
+		AE224BE4246DB4860074CDB6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE224BE3246DB4860074CDB6 /* SignUpViewController.swift */; };
+		AE224BE6246DB9F30074CDB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE224BE5246DB9F30074CDB6 /* LoginViewController.swift */; };
+		AE7D8240246F08D5009F1F3F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D823F246F08D5009F1F3F /* DashboardViewController.swift */; };
+		AE7D8242246F08E0009F1F3F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7D8241246F08E0009F1F3F /* ProfileViewController.swift */; };
+		AE8AEBE92474F74A00704207 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBE82474F74A00704207 /* Constant.swift */; };
+		AE8AEBEC2474F7D800704207 /* ModelSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBEB2474F7D800704207 /* ModelSignUp.swift */; };
+		AE8AEBEE2474FA4500704207 /* APIFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBED2474FA4500704207 /* APIFunc.swift */; };
+		AE8AEBF02474FA6300704207 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBEF2474FA6300704207 /* Reachability.swift */; };
+		AE8AEBF324751E4B00704207 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = AE8AEBF224751E4700704207 /* user.png */; };
+		AE8AEBF524754A5300704207 /* ModelDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBF424754A5300704207 /* ModelDashboard.swift */; };
+		AE8AEBF724754AE400704207 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8AEBF624754AE400704207 /* DashboardTableViewCell.swift */; };
+		AEB76739246F1B99006A1195 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB76738246F1B99006A1195 /* MapKit.framework */; };
+		AEFAECFA246DCE0F00AA3B7B /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAECF9246DCE0F00AA3B7B /* ForgotPasswordViewController.swift */; };
+		AEFAECFC246DCEE300AA3B7B /* Decoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAECFB246DCEE300AA3B7B /* Decoration.swift */; };
+		AEFAECFF246DCF0C00AA3B7B /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAECFE246DCF0C00AA3B7B /* GlobalFunctions.swift */; };
+		AEFAED03246DCF3B00AA3B7B /* GradientDecoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAED02246DCF3B00AA3B7B /* GradientDecoration.swift */; };
+		F7CBFA554D1F917A103AA1C7 /* Pods_CoDesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC2587771FDDAD718DA4E4B /* Pods_CoDesk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AC2587771FDDAD718DA4E4B /* Pods_CoDesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoDesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738DEBCA87E9D854E87A8F54 /* Pods-CoDesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoDesk.release.xcconfig"; path = "Target Support Files/Pods-CoDesk/Pods-CoDesk.release.xcconfig"; sourceTree = "<group>"; };
+		767301D0229814F3E9F8105D /* Pods-CoDesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoDesk.debug.xcconfig"; path = "Target Support Files/Pods-CoDesk/Pods-CoDesk.debug.xcconfig"; sourceTree = "<group>"; };
+		AE189B1D2478F16A00B55CE5 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		AE224BC1246DA0EB0074CDB6 /* CoDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE224BC4246DA0EB0074CDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE224BC8246DA0EB0074CDB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE224BCB246DA0EB0074CDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE224BCD246DA0ED0074CDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE224BD0246DA0ED0074CDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE224BD2246DA0ED0074CDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE224BE1246DB1D70074CDB6 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AE224BE3246DB4860074CDB6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AE224BE5246DB9F30074CDB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE7D823F246F08D5009F1F3F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		AE7D8241246F08E0009F1F3F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AE8AEBE82474F74A00704207 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		AE8AEBEB2474F7D800704207 /* ModelSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSignUp.swift; sourceTree = "<group>"; };
+		AE8AEBED2474FA4500704207 /* APIFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFunc.swift; sourceTree = "<group>"; };
+		AE8AEBEF2474FA6300704207 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		AE8AEBF12475059000704207 /* loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader.png; sourceTree = "<group>"; };
+		AE8AEBF224751E4700704207 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		AE8AEBF424754A5300704207 /* ModelDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDashboard.swift; sourceTree = "<group>"; };
+		AE8AEBF624754AE400704207 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		AEB76738246F1B99006A1195 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AEFAECF9246DCE0F00AA3B7B /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		AEFAECFB246DCEE300AA3B7B /* Decoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoration.swift; sourceTree = "<group>"; };
+		AEFAECFE246DCF0C00AA3B7B /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		AEFAED02246DCF3B00AA3B7B /* GradientDecoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientDecoration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE224BBE246DA0EB0074CDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB76739246F1B99006A1195 /* MapKit.framework in Frameworks */,
+				F7CBFA554D1F917A103AA1C7 /* Pods_CoDesk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14652479168CE849701F99D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767301D0229814F3E9F8105D /* Pods-CoDesk.debug.xcconfig */,
+				738DEBCA87E9D854E87A8F54 /* Pods-CoDesk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7AD8CD3879614790361A1F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB76738246F1B99006A1195 /* MapKit.framework */,
+				4AC2587771FDDAD718DA4E4B /* Pods_CoDesk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE224BB8246DA0EB0074CDB6 = {
+			isa = PBXGroup;
+			children = (
+				AE224BC3246DA0EB0074CDB6 /* CoDesk */,
+				AE224BC2246DA0EB0074CDB6 /* Products */,
+				14652479168CE849701F99D9 /* Pods */,
+				7AD8CD3879614790361A1F96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE224BC2246DA0EB0074CDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE224BC1246DA0EB0074CDB6 /* CoDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE224BC3246DA0EB0074CDB6 /* CoDesk */ = {
+			isa = PBXGroup;
+			children = (
+				AE8AEBF224751E4700704207 /* user.png */,
+				AE8AEBF12475059000704207 /* loader.png */,
+				AE8AEBEA2474F7C900704207 /* Models */,
+				AEFAECFD246DCEEC00AA3B7B /* GlobalClasses */,
+				AE224BC4246DA0EB0074CDB6 /* AppDelegate.swift */,
+				AE224BC8246DA0EB0074CDB6 /* ViewController.swift */,
+				AE224BE1246DB1D70074CDB6 /* SplashViewController.swift */,
+				AE224BE3246DB4860074CDB6 /* SignUpViewController.swift */,
+				AE224BE5246DB9F30074CDB6 /* LoginViewController.swift */,
+				AEFAECF9246DCE0F00AA3B7B /* ForgotPasswordViewController.swift */,
+				AE7D823F246F08D5009F1F3F /* DashboardViewController.swift */,
+				AE7D8241246F08E0009F1F3F /* ProfileViewController.swift */,
+				AE189B1D2478F16A00B55CE5 /* FavoriteViewController.swift */,
+				AE224BCD246DA0ED0074CDB6 /* Assets.xcassets */,
+				AE224BCA246DA0EB0074CDB6 /* Main.storyboard */,
+				AE224BCF246DA0ED0074CDB6 /* LaunchScreen.storyboard */,
+				AE224BD2246DA0ED0074CDB6 /* Info.plist */,
+			);
+			path = CoDesk;
+			sourceTree = "<group>";
+		};
+		AE8AEBEA2474F7C900704207 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE8AEBEB2474F7D800704207 /* ModelSignUp.swift */,
+				AE8AEBF424754A5300704207 /* ModelDashboard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AEFAECFD246DCEEC00AA3B7B /* GlobalClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AEFAECFB246DCEE300AA3B7B /* Decoration.swift */,
+				AEFAECFE246DCF0C00AA3B7B /* GlobalFunctions.swift */,
+				AEFAED02246DCF3B00AA3B7B /* GradientDecoration.swift */,
+				AE8AEBE82474F74A00704207 /* Constant.swift */,
+				AE8AEBED2474FA4500704207 /* APIFunc.swift */,
+				AE8AEBEF2474FA6300704207 /* Reachability.swift */,
+				AE8AEBF624754AE400704207 /* DashboardTableViewCell.swift */,
+			);
+			path = GlobalClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE224BC0246DA0EB0074CDB6 /* CoDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE224BD5246DA0ED0074CDB6 /* Build configuration list for PBXNativeTarget "CoDesk" */;
+			buildPhases = (
+				CEA4CBC9C6F5BA4D171AA8CF /* [CP] Check Pods Manifest.lock */,
+				AE224BBD246DA0EB0074CDB6 /* Sources */,
+				AE224BBE246DA0EB0074CDB6 /* Frameworks */,
+				AE224BBF246DA0EB0074CDB6 /* Resources */,
+				11D09DD709B482A7ADDD9131 /* [CP] Embed Pods Frameworks */,
+				FE9FC7886740993E7BFB14E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoDesk;
+			productName = CoDesk;
+			productReference = AE224BC1246DA0EB0074CDB6 /* CoDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE224BB9246DA0EB0074CDB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "iOS-Appentus";
+				TargetAttributes = {
+					AE224BC0246DA0EB0074CDB6 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE224BBC246DA0EB0074CDB6 /* Build configuration list for PBXProject "CoDesk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE224BB8246DA0EB0074CDB6;
+			productRefGroup = AE224BC2246DA0EB0074CDB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE224BC0246DA0EB0074CDB6 /* CoDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE224BBF246DA0EB0074CDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE224BD1246DA0ED0074CDB6 /* LaunchScreen.storyboard in Resources */,
+				AE224BCE246DA0ED0074CDB6 /* Assets.xcassets in Resources */,
+				AE8AEBF324751E4B00704207 /* user.png in Resources */,
+				AE224BCC246DA0EB0074CDB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11D09DD709B482A7ADDD9131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA4CBC9C6F5BA4D171AA8CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoDesk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE9FC7886740993E7BFB14E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoDesk/Pods-CoDesk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE224BBD246DA0EB0074CDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8AEBEE2474FA4500704207 /* APIFunc.swift in Sources */,
+				AE224BE2246DB1D70074CDB6 /* SplashViewController.swift in Sources */,
+				AE224BC9246DA0EB0074CDB6 /* ViewController.swift in Sources */,
+				AE8AEBF724754AE400704207 /* DashboardTableViewCell.swift in Sources */,
+				AE189B1E2478F16A00B55CE5 /* FavoriteViewController.swift in Sources */,
+				AEFAECFF246DCF0C00AA3B7B /* GlobalFunctions.swift in Sources */,
+				AEFAECFA246DCE0F00AA3B7B /* ForgotPasswordViewController.swift in Sources */,
+				AEFAED03246DCF3B00AA3B7B /* GradientDecoration.swift in Sources */,
+				AE8AEBEC2474F7D800704207 /* ModelSignUp.swift in Sources */,
+				AE224BE4246DB4860074CDB6 /* SignUpViewController.swift in Sources */,
+				AE8AEBF524754A5300704207 /* ModelDashboard.swift in Sources */,
+				AE8AEBF02474FA6300704207 /* Reachability.swift in Sources */,
+				AE7D8242246F08E0009F1F3F /* ProfileViewController.swift in Sources */,
+				AE224BE6246DB9F30074CDB6 /* LoginViewController.swift in Sources */,
+				AE7D8240246F08D5009F1F3F /* DashboardViewController.swift in Sources */,
+				AE224BC5246DA0EB0074CDB6 /* AppDelegate.swift in Sources */,
+				AEFAECFC246DCEE300AA3B7B /* Decoration.swift in Sources */,
+				AE8AEBE92474F74A00704207 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE224BCA246DA0EB0074CDB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE224BCB246DA0EB0074CDB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE224BCF246DA0ED0074CDB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE224BD0246DA0ED0074CDB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE224BD3246DA0ED0074CDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE224BD4246DA0ED0074CDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE224BD6246DA0ED0074CDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767301D0229814F3E9F8105D /* Pods-CoDesk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				INFOPLIST_FILE = CoDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.parentscode.CoDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE224BD7246DA0ED0074CDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738DEBCA87E9D854E87A8F54 /* Pods-CoDesk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4B73FJ2U9F;
+				INFOPLIST_FILE = CoDesk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.parentscode.CoDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE224BBC246DA0EB0074CDB6 /* Build configuration list for PBXProject "CoDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE224BD3246DA0ED0074CDB6 /* Debug */,
+				AE224BD4246DA0ED0074CDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE224BD5246DA0ED0074CDB6 /* Build configuration list for PBXNativeTarget "CoDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE224BD6246DA0ED0074CDB6 /* Debug */,
+				AE224BD7246DA0ED0074CDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE224BB9246DA0EB0074CDB6 /* Project object */;
+}
